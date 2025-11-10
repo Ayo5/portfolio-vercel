@@ -12,6 +12,15 @@ const Projet = () => {
       <Header />
       <NavBar />
       <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-6 place-items-center animate-slide-up-fade animation-delay-100 p-6">
+
+        <Card
+          title={t("visionFood.title")}
+          description={t("visionFood.description")}
+          imageUrl="/projet/logo_vision_food.png"
+          altText={t("visionFood.altText")}
+          href="./projet/vision_food"
+          tag="Python"
+        />
         <Card
           title={t("huawei.title")}
           description={t("huawei.description")}
